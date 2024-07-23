@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --tds-font-family-fallback-text: -apple-system, Arial, sans-serif;
+    --tds-font-family-fallback-monospace: Menlo, monospace;
+    --tds-font-family-fallback-display: -apple-system, Arial, sans-serif;
+    --tds-font-family-base-text: "Universal Sans Text";
+    --tds-font-family-base-monospace: "Fira Code";
+    --tds-font-family-base-display: "Universal Sans Display";
+}
+.mainbox{
+    background-image: url(./image1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 13px;
+    width: 100vw;
+}
+.box2 ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.box3 ul{
+    display: flex;
+    list-style: none;
+    gap: 17px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 310px;
+    align-items: center;
+    text-align: center;
+}
+.box h1{
+    font-size: 1.5cm;
+}
+.box h3{
+    font-size: x-large;
+    color: #171a20;
+}
+.line{
+    border-bottom: 1px solid #171a20;
+}
+.line:hover{
+    border-bottom: 3px solid #171a20;
+}
+.box1 button{
+    height: 40px;
+    width: 250px;
+    margin: 12px;
+    border: none;
+    border-radius: 7px;
+}
+.order{
+    background-color: #fff;
+    color: #171a20;
+}
+.demo{
+    background-color: #171a20;
+    color: #fff;
+}
+.mainbox1{
+    background-image: url(./image2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 375px;
+    align-items: center;
+}
+.box3 h1{
+    font-size: 1.5cm;
+}
+.box3 h3{
+    font-size: x-large;
+    color: #171a20;
+}
+.box3 b         {
+    border-bottom: 1px solid #171a20;
+}
+.box3 b:hover{
+    border-bottom: 3px solid #171a20;
+}
+.mainbox2{
+    background-image: url(./image3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 410px;
+    align-items: center;
+}
+.box4 h1{
+    font-size: 1.5cm;
+}
+.box4 h3{
+    font-size: x-large;
+    color: #171a20;
+}
+.box4 b         {
+    border-bottom: 1px solid #171a20;
+}
+.box4 b:hover{
+    border-bottom: 3px solid #171a20;
+}
+.mainbox3{
+    background-image: url(./image4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 380px;
+    align-items: center;
+}
+.box5 h1{
+    font-size: 1.5cm;
+    color: #fff;
+}
+.box5 h3{
+    font-size: x-large;
+    color: #fff;
+}
+.box5 b         {
+    border-bottom: 1px solid #fff;
+}
+.box5 b:hover{
+    border-bottom: 3px solid #fff;
+}
+.mainbox4{
+    background-image: url(./image6.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 320px;
+    align-items: center;
+}
+.box6{
+    font-family: "Playwrite AT";
+    padding: 30px;
+    font-size: 1cm;
+}
+.mainbox5{
+    background-image: url(./image7.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 370px;
+    align-items: center;
+}
+.box7 h1{
+    padding: 30px;
+    font-size: 1cm;
+    color: #fff;
+}
+.box7 h3{
+    font-size: x-large;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.mainbox6{
+    background-image: url(./image8.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 370px;
+    align-items: center;
+}
+.box8{
+    padding: 20px;
+}
+.box8 h1{
+    font-size: 1.5cm;
+}
+.box8 h3{
+    font-size: x-large;
+    color: #171a20;
+}
+.mainbox7{
+    background-image: url(./image9.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 380px;
+    align-items: center;
+}
+.box9{
+    padding: 20px;
+}
+.box9 h1{
+    font-size: 1.5cm;
+}
+.mainbox8{
+    background-image: url(./image10.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 380px;
+    align-items: center;
+}
+.box10{
+    padding: 20px;
+}
+.box10 h1{
+    font-size: 1.5cm;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.box11{
+   padding: 50px;
+   width: 700px;
+   margin: 0 auto;
+}
+.box12{
+    padding: 50px;
+}
+.box12 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
